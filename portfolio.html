@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио по строительству и кровле | Анас</title>
+  <meta name="description" content="Портфолио Анаса: кровля, дома, бани, заборы, гаражи, беседки, ремонт и реконструкция частных объектов в Нижневартовске.">
+  <meta name="theme-color" content="#1d2329">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-mark"><i class="fa-solid fa-hammer"></i></span>
+        <span>Анас</span>
+        <span>Строй</span>
+      </a>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Главная</a>
+        <a href="services.html">Услуги</a>
+        <a href="prices.html">Цены</a>
+        <a href="portfolio.html" class="active">Портфолио</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">Портфолио</p>
+        <h1>Портфолио по домам, баням, беседкам, кровле и этапам стройки</h1>
+        <p class="lead">Здесь видно, что работаем не только по крыше. Строим дома, бани, беседки, ведем каркасные этапы, делаем кровлю и берем частные объекты с нуля.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio-section">
+      <div class="container">
+        <div class="portfolio-category">
+          <div>
+            <p class="eyebrow">Фильтр</p>
+            <h2>Работы по категориям</h2>
+          </div>
+          <p class="section-intro">Оставили текущие фотографии и добавили новый набор объектов. Можно быстро переключаться между домами, банями, беседками, кровлей и этапами строительства.</p>
+        </div>
+
+        <div class="portfolio-filters" aria-label="Фильтры портфолио">
+          <button class="portfolio-filter is-active" type="button" data-filter="all">Все</button>
+          <button class="portfolio-filter" type="button" data-filter="homes">Дома</button>
+          <button class="portfolio-filter" type="button" data-filter="baths">Бани</button>
+          <button class="portfolio-filter" type="button" data-filter="gazebos">Беседки</button>
+          <button class="portfolio-filter" type="button" data-filter="roof">Кровля</button>
+          <button class="portfolio-filter" type="button" data-filter="stages">Этапы строительства</button>
+        </div>
+
+        <div class="portfolio-grid-cards" id="portfolio-grid">
+          <article class="portfolio-item portfolio-card-entry" data-category="homes" data-modal-image="images/portfolio/1.jpg" data-modal-title="Дом из блока — начало строительства">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Дом из блока — начало строительства">
+              <img src="images/portfolio/1.jpg" alt="Дом из блока — начало строительства">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Дома</span>
+              <h3>Дом из блока — начало строительства</h3>
+              <p class="portfolio-copy">Строительство частного дома из блока с нуля. Подготовка коробки дома и кровельные работы.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="homes" data-modal-image="images/portfolio/2.jpg" data-modal-title="Блочный дом с кровлей">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Блочный дом с кровлей">
+              <img src="images/portfolio/2.jpg" alt="Блочный дом с кровлей">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Дома</span>
+              <h3>Блочный дом с кровлей</h3>
+              <p class="portfolio-copy">Строительство дома из блока с устройством четырехскатной крыши и подготовкой под дальнейшие работы.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="roof homes" data-modal-image="images/portfolio/3.jpg" data-modal-title="Сруб с монтажом кровли">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Сруб с монтажом кровли">
+              <img src="images/portfolio/3.jpg" alt="Сруб с монтажом кровли">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Кровля / Дома</span>
+              <h3>Сруб с монтажом кровли</h3>
+              <p class="portfolio-copy">Кровельные работы и наружная отделка деревянного сруба. Монтаж покрытия и подготовка фасадной части.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="roof homes" data-modal-image="images/portfolio/4.jpg" data-modal-title="Дом с мягкой кровлей">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Дом с мягкой кровлей">
+              <img src="images/portfolio/4.jpg" alt="Дом с мягкой кровлей">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Кровля / Дома</span>
+              <h3>Дом с мягкой кровлей</h3>
+              <p class="portfolio-copy">Монтаж кровли на частном доме. Выполнение кровельных работ на готовой коробке здания.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="homes" data-modal-image="images/portfolio/5.jpg" data-modal-title="Дом из бруса с мансардой">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Дом из бруса с мансардой">
+              <img src="images/portfolio/5.jpg" alt="Дом из бруса с мансардой">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Дома</span>
+              <h3>Дом из бруса с мансардой</h3>
+              <p class="portfolio-copy">Строительство деревянного дома с мансардным этажом, крыльцом и подготовкой под дальнейшую отделку.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="baths" data-modal-image="images/portfolio/6.jpg" data-modal-title="Современная баня с террасой">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Современная баня с террасой">
+              <img src="images/portfolio/6.jpg" alt="Современная баня с террасой">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Бани</span>
+              <h3>Современная баня с террасой</h3>
+              <p class="portfolio-copy">Строительство современной бани с террасой и большими окнами. Компактное решение для дачи и участка.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="gazebos" data-modal-image="images/portfolio/7.jpg" data-modal-title="Шестигранная беседка">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Шестигранная беседка">
+              <img src="images/portfolio/7.jpg" alt="Шестигранная беседка">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Беседки</span>
+              <h3>Шестигранная беседка</h3>
+              <p class="portfolio-copy">Строительство деревянной беседки для участка с многоскатной кровлей и декоративной отделкой.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="gazebos" data-modal-image="images/portfolio/8.jpg" data-modal-title="Закрытая беседка">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Закрытая беседка">
+              <img src="images/portfolio/8.jpg" alt="Закрытая беседка">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Беседки</span>
+              <h3>Закрытая беседка</h3>
+              <p class="portfolio-copy">Строительство закрытой деревянной беседки с кровлей и защитными мягкими окнами.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="homes" data-modal-image="images/portfolio/9.jpg" data-modal-title="Дом из бруса">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Дом из бруса">
+              <img src="images/portfolio/9.jpg" alt="Дом из бруса">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Дома</span>
+              <h3>Дом из бруса</h3>
+              <p class="portfolio-copy">Возведение дома из бруса с устройством кровли. Строительство коробки дома под дальнейшие работы.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="stages" data-modal-image="images/portfolio/10.jpg" data-modal-title="Каркас — этап строительства">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Каркас — этап строительства">
+              <img src="images/portfolio/10.jpg" alt="Каркас — этап строительства">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Этапы строительства</span>
+              <h3>Каркас — этап строительства</h3>
+              <p class="portfolio-copy">Сборка деревянного каркаса на начальном этапе строительства частного объекта.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="homes" data-modal-image="images/portfolio/11.jpg" data-modal-title="A-frame дом">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото A-frame дом">
+              <img src="images/portfolio/11.jpg" alt="A-frame дом">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Дома</span>
+              <h3>A-frame дом</h3>
+              <p class="portfolio-copy">Строительство компактного A-frame дома с панорамным остеклением и террасой.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="roof" data-modal-image="assets/r-1.jpg" data-modal-title="Ремонт кровли частного дома">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Ремонт кровли частного дома">
+              <img src="assets/r-1.jpg" alt="Ремонт кровли частного дома">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Кровля</span>
+              <h3>Ремонт кровли частного дома</h3>
+              <p class="portfolio-copy">Восстановление покрытия, проблемных узлов и рабочих участков крыши.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="roof" data-modal-image="assets/r-2.jpg" data-modal-title="Усиление конструкции кровли">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Усиление конструкции кровли">
+              <img src="assets/r-2.jpg" alt="Усиление конструкции кровли">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Кровля</span>
+              <h3>Усиление конструкции кровли</h3>
+              <p class="portfolio-copy">Работы по стропильной системе, замене элементов и подготовке основания.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="baths stages" data-modal-image="assets/kompl-1.jpg" data-modal-title="Баня и сопутствующие работы">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Баня и сопутствующие работы">
+              <img src="assets/kompl-1.jpg" alt="Баня и сопутствующие работы">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Бани / Этапы</span>
+              <h3>Баня и сопутствующие работы</h3>
+              <p class="portfolio-copy">Кровля, наружные работы, переделка и доведение объекта до готового состояния.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item portfolio-card-entry" data-category="roof stages" data-modal-image="assets/kompl-2.jpg" data-modal-title="Ремонт и реконструкция">
+            <button class="portfolio-open" type="button" aria-label="Открыть фото Ремонт и реконструкция">
+              <img src="assets/kompl-2.jpg" alt="Ремонт и реконструкция">
+            </button>
+            <div class="portfolio-item-content">
+              <span class="portfolio-tag">Кровля / Этапы</span>
+              <h3>Ремонт и реконструкция</h3>
+              <p class="portfolio-copy">Переделка частных объектов, усиление, пристройки и восстановление.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-box">
+        <div>
+          <p class="eyebrow">Связаться</p>
+          <h2>Нужен дом, баня, кровля, забор или ремонт?</h2>
+          <p>Позвоните или напишите. Если фото по вашему направлению пока нет, это не значит, что мы этим не занимаемся. Сайт уже показывает полный профиль работ.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="tel:+79829020802"><i class="fa-solid fa-phone"></i> Позвонить</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/79829020802" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          <a class="btn btn-telegram" href="https://t.me/+79829020802" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i> Telegram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="portfolio-lightbox" id="portfolio-lightbox" hidden>
+    <button class="portfolio-lightbox-close" type="button" aria-label="Закрыть просмотр">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="portfolio-lightbox-inner">
+      <img id="portfolio-lightbox-image" src="" alt="">
+      <div class="portfolio-lightbox-caption" id="portfolio-lightbox-caption"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo">
+          <span class="logo-mark"><i class="fa-solid fa-hammer"></i></span>
+          <span>Анас</span>
+          <span>Строй</span>
+        </a>
+        <p class="footer-note">Портфолио по кровле, домам, баням, заборам и другим частным объектам.</p>
+      </div>
+      <div>
+        <a href="services.html">Все услуги</a>
+        <a href="prices.html">Цены</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div>
+        <a href="tel:+79829020802"><i class="fa-solid fa-phone"></i> +7 982 902-08-02</a>
+        <a href="https://wa.me/79829020802" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://t.me/+79829020802" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i> Telegram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
