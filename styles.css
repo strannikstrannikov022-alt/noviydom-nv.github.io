@@ -301,6 +301,11 @@ p {
   color: #fff;
 }
 
+.btn-max {
+  background: #2f3542;
+  color: #fff;
+}
+
 .hero-badges,
 .pill-list,
 .stat-list {
